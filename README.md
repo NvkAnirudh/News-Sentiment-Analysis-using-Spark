@@ -14,6 +14,10 @@ Visualized the results using Matplotlib and plotted positive and negative headli
 Performed Count Vectorization on the text data (headlines) to prepare it for modeling. Built machine learning models using various algorithms such as Naive Bayes, Random Forests, Logistic Regression, and Support Vector Machines. Obtained the highest accuracy with SVM.
 
 ### Topic Modeling
+Topic modeling is a technique used in natural language processing and machine learning to discover latent topics or themes within a large corpus of text documents. The goal of topic modeling is to identify patterns in the text data that are not immediately apparent to the human eye. This can be useful for many applications, such as content analysis, recommendation systems, and search engines.
+
+The Latent Dirichlet Allocation (LDA) model is a generative statistical model used for topic modeling. It assumes that each document in the corpus is a mixture of multiple topics, and that each topic is a distribution over words in the vocabulary. The LDA model infers the topic mixture for each document in the corpus, as well as the word distribution for each topic, by iteratively estimating the parameters of the model using a statistical technique called Gibbs sampling.
+
 Performed topic modeling using the Latent Dirichlet Allocation (LDA) model to identify the topics in the news headlines.
 
 ### Conclusion
